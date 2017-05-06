@@ -1,0 +1,2968 @@
+@import 'https://fonts.googleapis.com/css?family=Lato';
+/*Only iPhones*/
+@media only screen and (max-width: 414px) {
+  /*Customer Page, arrival, departure, appointments, all bookings, outstanding*/
+  .dataTable td {
+    text-align: right;
+    padding-left: 34%;
+  }
+  .dataTable td:before {
+    text-align: left;
+  }
+  .totalResults {
+    text-align: center;
+    padding-bottom:10px;
+  }
+  .centerPages {
+    margin-left: auto;
+    margin-right: auto;
+    width: 68%;
+    padding-bottom: 10px;
+  }
+/*----CALENDAR-PAGE----*/
+  #calendarContainer select {
+    padding: 5px;
+    height: 40px;
+    font-size: 1rem;
+    border: 1px solid #a2a2a2;
+    border-radius: 5px;
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 96%;
+    background-color: #fff;
+    float: none;
+    margin-bottom: 20px;
+  }
+  #calendarContainer input {
+    padding: 5px;
+    font-size: 1rem;
+    border: 1px solid #a2a2a2;
+    border-radius: 5px;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    width: 96%;
+    height: 40px;
+    float: none;
+    box-sizing: border-box;
+  }
+}
+/*Only iPads*/
+@media only screen and (min-width: 415px) and (max-width: 1023px) {
+  /*Customer Page*/
+  .dataTable td {
+    text-align: center;
+    padding-left: 50%;
+  }
+  .dataTable td:before {
+    text-align: center;
+  }
+  .totalResults {
+    padding-left: 10px;
+    float: left;
+  }
+  .centerPages {
+    padding-right: 10px;
+  }
+  /*----CALENDAR-PAGE----*/
+  #calendarContainer select {
+      width: auto;
+      padding: 2%;
+      font-size: 1rem;
+      border: 1px solid #A2A2A2;
+      border-radius: 5px;
+      margin-right: 10px;
+      height: 42px;
+      background-color: white;
+  }
+  #calendarContainer input {
+      width: auto;
+      padding: 10px;
+      font-size: 1rem;
+      border: 1px solid #A2A2A2;
+      border-radius: 5px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+      background-color: white;
+  }
+}
+/*iPads && iPhones*/
+@media only screen and (max-width: 1023px) {
+  .bodyMove {
+    position: relative;
+    right: 0;
+    -webkit-transition: right 0.2s;
+  }
+  .mobileNoShow{
+    display: none !important;
+  }
+  /*Login Page*/
+  #loginBody {
+      background-color: #D8B56C;
+      text-align: center;
+  }
+  #loginForm {
+      background-color: #FFFFFF;
+      padding: 20px;
+  }
+  #loginForm #loginButton {
+      font-size: 1rem;
+      background-color: #3D3F42;
+      color: white;
+      border: 1px solid #3D3F42;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 5px;
+      margin-right: 0;
+      -webkit-appearance: none;
+  }
+  #loginForm #loginButton:hover {
+      font-size: 1rem;
+      background-color: #4E5054;
+      color: white;
+      border: 1px solid #4E5054;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 5px;
+      margin-right: 0;
+      -webkit-appearance: none;
+  }
+  /*header and menu bar*/
+  #businessName {
+      margin-left: 20px;
+      font-size: 1.5rem;
+      color: #3D3F42;
+      text-align: left;
+  }
+  .beta {
+    display: block;
+    width: 65px;
+    margin-top: 10px;
+  }
+  .mobileNav {
+    position: fixed;
+    z-index: 5;
+    width: 250px;
+    right: -250px;
+    -webkit-transition: right 0.2s;
+    background-color: #F9F9F9;
+    height: 100%;
+    top: 0;
+    overflow: scroll;
+    box-shadow: inset 0 1px 4px rgba(0,0,0,.2);
+  }
+  .mobileNavIcon {
+    position: fixed;
+    top: 20px;
+    right: 0px;
+    margin-right: 10px;
+    font-size: 1.5rem;
+    z-index: 5;
+    -webkit-transition: right 0.2s;
+    background-color: #07adf2;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 1px 4px rgba(0,0,0,.2);
+  }
+  #mobileToolBar {
+    position: fixed;
+    bottom: 0;
+    background-color: #3d3f42;
+    width: 100%;
+    color: white;
+    height: 50px;
+  }
+  .tab {
+    width: 125px;
+    font-size: 2rem;
+    float: left;
+    text-align: center;
+    margin-top: 5px;
+  }
+  .tab a:link {
+    color: white;
+  }
+  .tab a:visited {
+    color: white;
+  }
+  .tab a:hover {
+    color: #d8b56c;
+  }
+  .tab a:active {
+    color: #d8b56c;
+  }
+  .mobileNavIcon:hover {
+    background-color: #0687db;
+  }
+  .mobileNavIcon i {
+    margin-top: 12px;
+    color: white;
+  }
+  .navOpen {
+    right: 0px;
+  }
+  .contentMove {
+    right: 250px;
+  }
+  #mobileNavList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  #mobileNavList li {
+    padding: 20px;
+    border-top: 1px solid #E7E7E7;
+  }
+  #mobileNavList li:hover {
+    background-color:#d8b56c;
+    color: white;
+    padding: 20px;
+    border-top: 1px solid #E7E7E7;
+  }
+  .haveToMove {
+    margin-top: 0;
+    -webkit-transition: margin-top 0.2s;
+  }
+  .iMoved {
+    margin-top: 240px;
+  }
+  .active {
+    background-color: #d8b56c;
+    color:white;
+  }
+  #mobileNavList .active a {
+    color: white;
+    text-decoration: none;
+  }
+  #mobileNavList li a {
+    color: #3d3f42;
+    text-decoration: none;
+  }
+  .reportsDrop {
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+    -webkit-transition: height 0.2s;
+  }
+  .subMenuOpen {
+    height: 240px;
+  }
+  #mobileNavList .reportsDrop li {
+    background-color: #3d3f42;
+  }
+  #mobileNavList .reportsDrop li:hover {
+    background-color: #4E5054;
+  }
+  #mobileNavList .reportsDrop li a {
+    color: white;
+  }
+  .toggle-button {
+    position: fixed;
+    right: 0;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    padding: 0;
+    text-align: center;
+    box-shadow: 0 1px 4px rgba(0,0,0,.2);
+    -webkit-overflow-scrolling: touch;
+    background-color: #07adf2;
+    color: #FFFFFF;
+    -webkit-transition: right 0.2s;
+  }
+  .toggleChange {
+    right: 260px;
+  }
+  .menuToggleChange {
+    right: 0px !important;
+  }
+  .toggle-button i {
+    color: white;
+    font-size: 2rem;
+  }
+  .mobileSummary {
+    width: 260px;
+    position: fixed;
+    right: -260px;
+    top: 0;
+    box-shadow: 0 1px 4px rgba(0,0,0,.2);
+    background: #FFFFFF;
+    height: 100%;
+    overflow: scroll;
+    -webkit-transition: right 0.2s;
+  }
+  h3 {
+    margin-left: 10px;
+  }
+  #fullNav {
+      display: none;
+  }
+  #auxMenuFull{
+      display: none;
+  }
+  .dropdown-list ul li {
+    list-style-type: none;
+  }
+  .mobileNavOverLay {
+    background-color: #3d3f42;
+    opacity: 0.8;
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    top: 20px;
+    right: 2%;
+    position: fixed;
+    z-index: 2;
+    -webkit-transition: width 0.2s, height 0.2s, border-radius 0.2s, top 0.2s, right 0.2s;
+  }
+  .overlayChange {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+    top:0px;
+    right:0px;
+    z-index: 3;
+  }
+  /*Home Page*/
+  #homeContainer {
+      background-color: #D8B56C;
+      padding-top: 20px;
+      padding-bottom:20px;
+  }
+  .dataContainer {
+    background-color: #FFFFFF;
+    color: #3D3F42;
+    padding: 20px;
+    margin: 20px 0 20px 0;
+    min-height: 176px;
+  }
+  .loading {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+    box-sizing: initial;
+    height: 176px;
+    z-index: 10;
+    color: #FFFFFF;
+    background-color: rgba(0,0,0,0.5);
+  }
+  .loading i {
+    margin-left: 46%;
+    margin-top: 88px;
+    font-size: 2rem;
+  }
+  .dataLeft {
+    width: 100%;
+  }
+  .dataRight {
+    width: 100%;
+  }
+  .arrowBorder {
+    display: none;
+  }
+  .departmentTable {
+    width: 100%;
+  }
+  .departmentTable button {
+      font-size: 2rem;
+      background-color: #3D3F42;
+      border: transparent;
+      color: white;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 3px;
+      margin-right: 10px;
+      margin-left: 10px;
+  }
+  /* Force table to not be like tables anymore */
+	.dataTable table, .dataTable thead, .dataTable tbody, .dataTable th, .dataTable td, .dataTable tr {
+		display: block;
+	}
+
+  /* Force table to not be like tables anymore */
+	.departmentTable table, .departmentTable thead, .departmentTable tbody, .departmentTable th, .departmentTable td, .departmentTable tr {
+		display: block;
+	}
+
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+ .departmentTable tr { border: 1px solid #ccc; }
+
+ .departmentTable	tr td {
+		/* Behave  like a "row" */
+		border: none;
+		position: relative;
+		padding-left: 50%;
+    min-height: 50px;
+    padding-top: 14px;
+    margin-right: 6px;
+    width: auto;
+	}
+
+	.departmentTable td:before {
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+	}
+  .departmentTable tr:nth-of-type(odd) {
+    background: #eee;
+  }
+	/*
+	Label the data
+	*/
+  #arrivalTable td:nth-of-type(1):before { content: "Customer"; }
+  #arrivalTable td:nth-of-type(2):before { content: "Kennel"; }
+  #arrivalTable td:nth-of-type(3):before { content: "Status"; }
+
+  #departureTable td:nth-of-type(1):before { content: "Customer"; }
+  #departureTable td:nth-of-type(2):before { content: "Kennel"; }
+  #departureTable td:nth-of-type(3):before { content: "Status"; }
+
+  #appointmentTable td:nth-of-type(1):before { content: "Customer"; }
+  #appointmentTable td:nth-of-type(2):before { content: "Type"; }
+  #appointmentTable td:nth-of-type(3):before { content: "Status"; }
+
+  #bookingHistoryTable td:nth-of-type(1):before { content: "Customer"; }
+	#bookingHistoryTable td:nth-of-type(2):before { content: "Dates"; }
+	#bookingHistoryTable td:nth-of-type(3):before { content: "Type"; }
+
+	#outstandingPaymentsTable td:nth-of-type(1):before { content: "Customer"; }
+	#outstandingPaymentsTable td:nth-of-type(2):before { content: "Booking Date"; }
+	#outstandingPaymentsTable td:nth-of-type(3):before { content: "Type"; }
+	#outstandingPaymentsTable td:nth-of-type(4):before { content: "Amount Owing"; }
+
+  /*Customer Page*/
+  .customerListContainer {
+      background-color: #FFFFFF;
+      color: #3D3F42;
+      margin-bottom: 1.5%;
+      margin-top: 1.5%;
+      padding-top:1.5%;
+      padding-bottom:1.5%;
+  }
+  .customerListContainer button {
+    font-size: 1rem;
+    background-color: #3D3F42;
+    border: transparent;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 1rem;
+  }
+  .customerListContainer button:hover {
+      font-size: 1rem;
+      background-color: #4e5054;
+      border: transparent;
+      color: white;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 3px;
+      margin-right: 10px;
+      margin-top: 1rem;
+  }
+  .customerListContainer .profileButton3 {
+      background-color: #07ADF2;
+      border: none;
+      margin-right: 0;
+      color: #FFFFFF;
+      margin-bottom: 5px;
+      margin-top: 0px;
+  }
+  .customerListContainer .profileButton3:hover {
+      color: white;
+      background-color: #0687DB;
+      margin-right: 0;
+      margin-bottom: 5px;
+      margin-top: 0px;
+  }
+  #customerSearchForm, #appointmentDateForm {
+    float: none;
+  }
+  #customerSearch {
+    float: none;
+    height: 40px;
+    font-size: 1rem;
+    width: 96%;
+    margin-right: 2%;
+    margin-left: 2%;
+    box-sizing: border-box;
+  }
+  .customerListContainer select, .customerListContainer input, .customerListContainer input[type=date] {
+    padding: 5px;
+    font-size: 1rem;
+    border: 1px solid #3d3f42;
+    border-radius: 3px;
+    background-color: #fff;
+    box-sizing: border-box;
+    width: 96%;
+    height: 40px;
+    margin-left: 2%;
+    margin-right: 2%;
+    -webkit-appearance: none;
+  }
+  #custSortForm {
+    float: none;
+  }
+  #custSort {
+    float: none;
+    height: 40px;
+    font-size: 1rem;
+    margin-right: 40.5%;
+    margin-left: 40.5%;
+    width: 15%;
+    margin-bottom: 10px;
+  }
+  .customerListContainer label {
+    text-align: center;
+    width: 100%;
+  }
+  #custSortFormArrival {
+    float: none;
+  }
+  #arrivalDateRangeForm {
+    margin-top: 20px;
+    float: none;
+  }
+  .to {
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  #customerDataTable td:nth-of-type(1):before { content: "Customer"; }
+  #customerDataTable .sorry:nth-of-type(1):before { content: ""; }
+  #customerDataTable td:nth-of-type(2):before { content: "Email Address"; }
+  #customerDataTable td:nth-of-type(3):before { content: "Phone No."; }
+  #customerDataTable td:nth-of-type(4):before { content: "Dogs"; }
+  #customerDataTable td:nth-of-type(5):before { content: "Last Booking"; }
+  /*Arrivals and departure Page Tables*/
+  #arrivalDataTable td:nth-of-type(1):before { content: "Customer"; }
+  #arrivalDataTable .sorry:nth-of-type(1):before { content: ""; }
+  #arrivalDataTable td:nth-of-type(2):before { content: "Dogs"; }
+  #arrivalDataTable td:nth-of-type(3):before { content: "Date Booked"; }
+  #arrivalDataTable td:nth-of-type(4):before { content: "Kennel"; }
+  #arrivalDataTable td:nth-of-type(5):before { content: "Arrival"; }
+  #arrivalDataTable td:nth-of-type(6):before { content: "Amount Owed"; }
+  /*appointment Page Table*/
+  #appointmentDataTable td:nth-of-type(1):before { content: "Customer"; }
+  #appointmentDataTable .sorry:nth-of-type(1):before { content: ""; }
+  #appointmentDataTable td:nth-of-type(2):before { content: "Dogs"; }
+  #appointmentDataTable td:nth-of-type(3):before { content: "Date Booked"; }
+  #appointmentDataTable td:nth-of-type(4):before { content: "Type"; }
+  #appointmentDataTable td:nth-of-type(5):before { content: "Amount Owed"; }
+  /*all Page Table*/
+  #allDataTable td:nth-of-type(1):before { content: "Customer"; }
+  #allDataTable .sorry:nth-of-type(1):before { content: ""; }
+  #allDataTable td:nth-of-type(2):before { content: "Dogs"; }
+  #allDataTable td:nth-of-type(3):before { content: "Date Booked"; }
+  #allDataTable td:nth-of-type(4):before { content: "Kennel(s)"; }
+  #allDataTable td:nth-of-type(5):before { content: "Dates"; }
+  #allDataTable td:nth-of-type(6):before { content: "Amount Paid"; }
+  #allDataTable td:nth-of-type(7):before { content: "Amount Owed"; }
+
+  .dataTable td:before {
+    position: absolute;
+    left: 10px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    word-wrap: break-word;
+	}
+  .dataTable {
+      width:100%;
+      text-align:center;
+      border-collapse: collapse;
+      margin-top: 3%;
+      margin-bottom: 3%;
+  }
+  .dataTable td {
+    border: 1px solid #ddd;
+    position: relative;
+    width: 50%;
+    min-height: 50px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 10px;
+    word-wrap: break-word;
+    width: auto;
+  }
+  .dataTable .sorry {
+    padding-left: 0px;
+  }
+  .dataTable tr:nth-child(odd) {
+      background: #eee;
+  }
+  .dataTable tr:hover {
+      background: #F5F5F5;
+  }
+  .dataTable .dataTableHeader:hover {
+      background-color: #FFFFFF;
+  }
+  /*----CUSTOMER PROFILE----*/
+  #bookingHistoryTable td:nth-of-type(1):before { content: "Booking #"; }
+  #bookingHistoryTable .sorry:nth-of-type(1):before { content: ""; }
+  #bookingHistoryTable td:nth-of-type(2):before { content: "Dates"; }
+  #bookingHistoryTable td:nth-of-type(3):before { content: "Type"; }
+  #bookingHistoryTable td:nth-of-type(4):before { content: "Cost"; }
+  #bookingHistoryTable td:nth-of-type(5):before { content: "Status"; }
+
+  .custContainer button {
+      font-size: 1rem;
+      background-color: #3D3F42;
+      color: white;
+      border: 1px solid #3D3F42;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 3px;
+      margin-right: 10px;
+  }
+  .custContainer button:hover {
+      font-size: 1rem;
+      background-color: #4e5054;
+      color: white;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 3px;
+      margin-right: 10px;
+  }
+  .custProfileLeft {
+      width:100%;
+      float: none;
+      box-sizing: border-box;
+  }
+  .custProfileRight {
+      width:100%;
+      float: none;
+      box-sizing: border-box;
+  }
+  .custContainer {
+      background-color: #FFFFFF;
+      color: #3D3F42;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-bottom: 1.5%;
+      margin-top: 1.5%;
+      padding-top:10px;
+      padding-bottom:10px;
+  }
+  .custProfileRight input{
+      box-sizing: border-box;
+      width: 100%;
+      padding: 5px;
+      height: 40px;
+      font-size: 1rem;
+      border: 1px solid #A2A2A2;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      background-color: white;
+      margin-top: 10px;
+  }
+  .custProfileRight input[type="date"]{
+      box-sizing: border-box;
+      width: 100%;
+      padding: 5px;
+      height: 40px;
+      font-size: 1rem;
+      border: 1px solid #A2A2A2;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      background-color: white;
+      margin-top: 10px;
+      -webkit-appearance: none;
+  }
+  .profileMenu {
+    margin-bottom: 0px;
+    width: 33%;
+    height: 50px;
+    font-size: 1rem;
+    text-align: center;
+    border-bottom: 3px solid #fff;
+  }
+  .custContainer h3 {
+    float: none;
+  }
+  .custProfileRight textarea{
+      box-sizing: border-box;
+      width: 100%;
+      padding: 5px;
+      font-size: 1rem;
+      border: 1px solid #A2A2A2;
+      border-radius: 5px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+      background-color: white;
+      height: 150px;
+      resize: none;
+      margin-top: 10px;
+  }
+  .custProfileRight select {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 5px;
+      font-size: 1rem;
+      height: 40px;
+      border: 1px solid #A2A2A2;
+      border-radius: 5px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+      background-color: white;
+      margin-top: 10px;
+      -webkit-appearance: none;
+  }
+  #redError {
+      color: red !important;
+      position: absolute;
+      background-color: white;
+      height: 40px;
+      padding: 10px;
+      margin-top: -12px;
+      border-radius: 3px;
+      border: 1px solid red;
+  }
+  /*Dog cards*/
+  .dogContainer {
+      padding-top: 20px;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      border-radius: 5px;
+      padding-left: 20px;
+      font-size: 1rem;
+      font-weight: 700;
+      border: 1px solid #0687DB;
+      background-color: rgba(2,192,242,0.5);
+  }
+  /*edit dog form*/
+  .editDog label {
+      font-weight: normal;
+      font-size: 1rem;
+  }
+  /*----KENNEL-SHEET----*/
+  .kennelSheetColumn {
+      width: 100%;
+      float:none;
+  }
+  #profileEdit, #profilePrint {
+    width: 50%;
+    font-size: 1rem;
+  }
+  /*----CALENDAR-PAGE----*/
+  #calendarContainer {
+      background-color: #FFFFFF;
+      color: #3D3F42;
+      position: relative;
+      z-index: 1;
+  }
+  #calendar {
+    display: table;
+  }
+  #calendarDateRow, #calendar tr {
+    display: table-row;
+  }
+  #calendar td {
+    display: table-cell;
+    box-sizing: initial;
+  }
+  #calendarKennels {
+      float: left;
+      outline: 1px solid #E7E7E7;
+      width: 25%;
+  }
+  #calendarKennels table, #calendarKennels tbody{
+    display: table;
+    width: 100%;
+  }
+  #calendarKennels tr {
+    display: table-row;
+  }
+  #calendarKennels td {
+      min-width: 76px;
+      height: 50px;
+      padding: 5px 0px 5px 5px;
+      border-bottom: 1px solid #E7E7E7;
+      text-align: center;
+      display: table-cell;
+      box-sizing: initial;
+  }
+  #calendarDates, #calendarSplitDates {
+      overflow-x: scroll;
+      -webkit-overflow-scrolling: touch;
+      width: 75%;
+      outline: 1px solid #E7E7E7;
+      float: left;
+      position: relative;
+  }
+  .calendarPrint {
+    margin-right: 10px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  #calendarContainer button {
+      font-size: 1rem;
+      background-color: #3D3F42;
+      color: white;
+      border: 1px solid #3D3F42;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 5px;
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-bottom: 20px;
+  }
+  .bookingPopUp {
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: 29px;
+    padding:0 10px 0 10px;
+    margin-left: 26px;
+    color: #3D3F42;
+    display: none;
+  }
+  /*BOOKING PAGE*/
+  .bookingContainer {
+      background-color: #FFFFFF;
+      color: #3D3F42;
+      padding:20px;
+      margin-bottom: 20px;
+  }
+  #bookingColumnRight {
+      width: auto;
+      float: none;
+  }
+  #bookingColumnLeft {
+      width: 100%;
+  }
+  .bookingColumn {
+      width: 100%;
+      float: none;
+  }
+  #bookingDates input {
+      width: 100%;
+      height: 40px;
+      padding: 5px;
+      font-size: 1rem;
+      border: 1px solid #A2A2A2;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      background-color: white;
+      margin-top: 10px;
+      box-sizing: border-box;
+  }
+  #bookingDates select {
+      width: 100%;
+      padding: 5px;
+      font-size: 1rem;
+      border: 1px solid #A2A2A2;
+      border-radius: 5px;
+      height: 40px;
+      background-color: white;
+      margin-top: 10px;
+  }
+  #bookKennelsBox {
+      display:none;
+      position: relative;
+      clear: both;
+      margin-right: -20px;
+      margin-left: -20px;
+  }
+  #legend {
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+    margin-right: 20px;
+  }
+  #bookingColumnLeft button {
+      font-size: 1rem;
+      background-color: #3D3F42;
+      border: transparent;
+      color: white;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 3px;
+      margin-right: 10px;
+      width: auto;
+  }
+  #splitBookingButton {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .dayCareDateBox {
+    height: 40px;
+    background-color: #81E0F9;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #0687DB;
+  }
+  #homeContainer .overlay #splitBookingCalendar {
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    overflow: scroll;
+    opacity: 1;
+    z-index: 1;
+    background-color: #FFFFFF;
+    left:-9999px;
+  }
+  #homeContainer .overlay .loadingContainer {
+    width: 100px;
+    background-color: #fff;
+    border-radius: 5px;
+    top: 45.5%;
+    position: absolute;
+    text-align: center;
+    padding-top: 10px;
+    width: 10%;
+    height: 9%;
+    left: -9999px;
+}
+  #splitBookingBox {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #bookingCustomer input{
+      width: 96%;
+      padding: 5px;
+      font-size: 1rem;
+      border: 1px solid #A2A2A2;
+      height: 40px;
+      border-radius: 5px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+      background-color: white;
+      margin-top: 10px;
+      box-sizing: border-box;
+  }
+  #liveSearchBox input {
+    border:none;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  #bookingClientReset {
+    width: auto;
+    margin-bottom: 10px;
+  }
+  #liveResult {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: -70px;
+    color: #3D3F42;
+    box-sizing: border-box;
+  }
+  #bookingColumnLeft .accordianArrow {
+    float: right;
+  }
+  .dogContainer span{
+    display: block;
+  }
+  #bookingPet button {
+      float: none;
+      font-size: 1rem;
+      background-color: #3D3F42;
+      color: white;
+      border: 1px solid #3D3F42;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 3px;
+      margin-right: 10px;
+      margin-top: 10px;
+      width: auto;
+  }
+  #bookingPet button:hover {
+      font-size: 1rem;
+      background-color: #4e5054;
+      color: white;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 3px;
+      margin-right: 10px;
+      width: auto;
+  }
+  #bookingPet .bookingChoice {
+    float: none;
+    width: auto;
+    margin: 0;
+    height: 40px;
+    background-color: white;
+    color: #3D3F42;
+    padding: 5px;
+    position: relative;
+  }
+  #bookingPet .bookingChoice:hover {
+    background-color: #f9f9f9;
+    color: #3d3f42;
+    height: 40px;
+    padding: 5px;
+    font-size: 1rem;
+  }
+  #bookingPet input {
+    width: 100%;
+    padding: 5px;
+    font-size: 1rem;
+    border: 1px solid #A2A2A2;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 20px;
+    background-color: white;
+    margin-top: 10px;
+    box-sizing: border-box;
+  }
+  #bookingPet input[type='radio'] {
+    width: 15px;
+  }
+  #bookingPet select {
+    width: 100%;
+    padding:5px;
+    font-size: 1rem;
+    border: 1px solid #A2A2A2;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 20px;
+    background-color: white;
+    margin-top: 10px;
+    box-sizing: border-box;
+  }
+  #bookingPet textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 1rem;
+    border: 1px solid #A2A2A2;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: white;
+    height: 150px;
+    resize: none;
+    margin-top: 10px;
+    box-sizing: border-box;
+  }
+  #bookingCost button{
+    font-size: 1rem;
+    background-color: #3D3F42;
+    color: white;
+    border: 1px solid #3D3F42;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    margin-right: 10px;
+    width: auto;
+  }
+  #bookingCost button:hover {
+      font-size: 1rem;
+      background-color: #4e5054;
+      color: white;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 3px;
+      margin-right: 10px;
+      width: auto;
+  }
+  #bookingCost input{
+      width: 100%;
+      padding: 5px;
+      font-size: 1rem;
+      border: 1px solid #A2A2A2;
+      border-radius: 5px;
+      height: 40px;
+      margin-bottom: 20px;
+      background-color: white;
+      margin-top: 10px;
+      box-sizing: border-box;
+  }
+  #bookingCost textarea{
+      width: 96%;
+      padding: 2%;
+      font-size: 1rem;
+      border: 1px solid #A2A2A2;
+      border-radius: 5px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+      background-color: white;
+      height: 150px;
+      resize: none;
+      margin-top: 10px;
+  }
+  #bookingCost select {
+    width: 100%;
+    padding: 5px;
+    font-size: 1rem;
+    border: 1px solid #A2A2A2;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    height: 40px;
+    background-color: white;
+    margin-top: 10px;
+  }
+  .extraCharge {
+    background-color: #81E0F9;
+    border-radius: 5px;
+    padding-top: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #0687DB;
+    position: relative;
+  }
+  .formInput {
+      float: none;
+      width: 100%;
+  }
+  .deleteExtraCharge {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .deleteExtraCharge:hover {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  .bookingContainer button {
+      background-color: white;
+      border: none;
+      color: #3D3F42;
+      width: 100%;
+      text-align: left;
+      font-size: 1rem;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 3px;
+      margin-right: 10px;
+  }
+  .bookingContainer button:hover {
+      background-color: #EEEEEE;
+      border: none;
+      color: #3D3F42;
+      width: 100%;
+      text-align: left;
+      font-size: 1rem;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 3px;
+      margin-right: 10px;
+  }
+  .bookingContainer button:active {
+      background-color: #EEEEEE;
+      border: none;
+      color: #3D3F42;
+      width: 100%;
+      text-align: left;
+      font-size: 1rem;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 3px;
+      margin-right: 10px;
+  }
+  /*Update Booking*/
+  .bookingSummaryDetails {
+    width: 100%;
+    float: none;
+    text-align: left !important;
+  }
+  #bookingDetailDateBooked {
+    float: left;
+    margin-top: 20px;
+  }
+  #bookingDetailContainer {
+    margin-bottom: 0;
+  }
+  #bookingColumnLeft #bookingShowDetailButton {
+    width: 92%;
+    padding: 4%;
+    margin: 4%;
+  }
+  #bookingColumnLeft #deleteEntireBooking {
+    width: 92%;
+    padding: 4%;
+    margin: 4%;
+  }
+}
+/*Desktops && Laptops*/
+@media only screen and (min-width: 1024px) {
+  /*Login Page*/
+  #loginBody {
+      background-color: #D8B56C;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      text-align: center;
+  }
+  #loginForm {
+      background-color: #FFFFFF;
+      padding: 20px;
+      border: 1px solid #FFFFFF;
+      border-radius: 5px;
+  }
+  #loginForm #loginButton {
+      font-size: 1rem;
+      background-color: #3D3F42;
+      color: white;
+      border: 1px solid #3D3F42;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 5px;
+      width: 300px;
+      margin-right: 0;
+  }
+  #loginForm #loginButton:hover {
+      font-size: 1rem;
+      background-color: #4E5054;
+      color: white;
+      border: 1px solid #4E5054;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 5px;
+      width: 300px;
+      margin-right: 0;
+  }
+  /*Header and menu*/
+  #businessName {
+      margin-left: 20px;
+      font-size: 2rem;
+      color: #3D3F42;
+  }
+  nav {
+      background-color: #D8B56C;
+      padding-top: 20px;
+      height: 39px;
+  }
+  #mobileNav, .mobileNavIcon {
+    display: none;
+  }
+  #mainNav {
+      margin-top: -20px;
+      float: left;
+      position:relative;
+  }
+  #mainNav li {
+      display: inline-block;
+      list-style: none;
+      color: #eddcbb;
+      font-size: 1rem;
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      position:relative;
+  }
+  #mainNav li:hover {
+    color: white;
+      background-color: #d6be8f;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      z-index: 5;
+  }
+  #mainNav li a {
+      text-decoration: none;
+      color: inherit;
+  }
+  #mainNav .selectedNav {
+      color: white;
+      background-color: #d6be8f;
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+  #reportsDrop {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      margin-top: 20px;
+      margin-left: -20px;
+      color: #3D3F42;
+  }
+  #reportsDrop a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+  #reportsDrop a:hover {background-color: #f1f1f1}
+  /* Show the dropdown menu on hover */
+  .reports:hover #reportsDrop {
+      display: block;
+  }
+  nav button {
+      float: right;
+      display: inline-block;
+      font-size: 1rem;
+      background-color: #3D3F42;
+      color: white;
+      border: 1px solid #3D3F42;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 3px;
+      margin-top: -10px;
+      margin-right: 10px;
+  }
+  nav button:hover {
+      float: right;
+      display: inline-block;
+      font-size: 1rem;
+      background-color: #4e5054;
+      color: white;
+      border: 1px solid #4e5054;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 3px;
+      margin-top: -10px;
+      margin-right: 10px;
+  }
+  nav input {
+      float:right;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 1rem;
+      border: 1px solid #FFFFFF;
+      border-radius: 3px;
+      margin-top: -10px;
+      margin-right: 10px;
+  }
+  .toggle-button {
+    display: none;
+  }
+  /*Home Page*/
+  #homeContainer {
+      background-color: #D8B56C;
+      padding-left: 20px;
+      padding-right:20px;
+      padding-top: 20px;
+      padding-bottom:20px;
+  }
+  .dataContainer {
+    background-color: #FFFFFF;
+    color: #3D3F42;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    min-height: 176px;
+  }
+  .loading {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    height: 176px;
+    z-index: 10;
+    color: #FFFFFF;
+    background-color: rgba(0,0,0,0.5);
+  }
+  .loading i {
+    margin-left: 46%;
+    margin-top: 88px;
+    font-size: 2rem;
+  }
+  .dataLeft {
+    width: 50%;
+    float: left;
+  }
+  .dataRight {
+    float: right;
+    width: 50%;
+  }
+  .departmentTable tr td {
+    height: 50px;
+    padding-left: 10px;
+  }
+  .departmentTable button {
+      font-size: 1rem;
+      background-color: #3D3F42;
+      border: transparent;
+      color: white;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 3px;
+      margin-right: 10px;
+      margin-left: 10px;
+  }
+  /*Customers Page*/
+  .customerListContainer {
+      background-color: #FFFFFF;
+      color: #3D3F42;
+      border-radius:5px;
+      margin-left: 1.5%;
+      margin-right: 1.5%;
+      padding-left: 1.5%;
+      padding-right: 1.5%;
+      margin-bottom: 1.5%;
+      margin-top: 1.5%;
+      padding-top:1.5%;
+      padding-bottom:1.5%;
+  }
+  .customerListContainer button {
+      font-size: 1rem;
+      background-color: #3D3F42;
+      border: transparent;
+      color: white;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 3px;
+      margin-right: 10px;
+  }
+  .customerListContainer button:hover {
+      font-size: 1rem;
+      background-color: #4e5054;
+      border: transparent;
+      color: white;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 3px;
+      margin-right: 10px;
+  }
+  .customerListContainer .profileButton3 {
+      background-color: #07ADF2;
+      border: none;
+      margin-right: 0;
+      color: #FFFFFF;
+  }
+  .customerListContainer .profileButton3:hover {
+      color: white;
+      background-color: #0687DB;
+      margin-right: 0;
+  }
+  #custSortForm {
+    width: 78%;
+  }
+  #custSortFormArrival {
+    width: 60%;
+  }
+  .customerListContainer select, .customerListContainer input {
+      padding: 5px;
+      font-size: 1rem;
+      border: 1px solid #3D3F42;
+      border-radius: 3px;
+      margin-right: 10px;
+      margin-left: 10px;
+      background-color:white;
+  }
+  .dataTable {
+      width:100%;
+      text-align:center;
+      border-collapse: collapse;
+      margin-top: 3%;
+      margin-bottom: 3%;
+  }
+  .dataTable td {
+      border: 1px solid #DDDDDD;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      height:50px;
+  }
+  .dataTable tr:nth-child(even) {
+      background: #F9F9F9;
+  }
+  .dataTable tr:hover {
+      background: #F5F5F5;
+  }
+  .dataTable .dataTableHeader:hover {
+      background-color: #FFFFFF;
+  }
+  /*----CUSTOMER PROFILE----*/
+  .custContainer button {
+      font-size: 1rem;
+      background-color: #3D3F42;
+      color: white;
+      border: 1px solid #3D3F42;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 3px;
+      margin-right: 10px;
+  }
+  .custContainer button:hover {
+      font-size: 1rem;
+      background-color: #4e5054;
+      color: white;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 3px;
+      margin-right: 10px;
+  }
+  .custProfileLeft {
+      width:23.5%;
+  }
+  .custProfileRight {
+      width:64.5%;
+  }
+  .custContainer {
+      background-color: #FFFFFF;
+      color: #3D3F42;
+      border-radius: 5px;
+      margin-left: 1.5%;
+      margin-right: 1.5%;
+      padding-left: 1.5%;
+      padding-right: 1.5%;
+      margin-bottom: 1.5%;
+      margin-top: 1.5%;
+      padding-top:1.5%;
+      padding-bottom:1.5%;
+  }
+  .custProfileRight input{
+      width: 100%;
+      padding: 5px;
+      height: 40px;
+      box-sizing: border-box;
+      font-size: 1rem;
+      border: 1px solid #A2A2A2;
+      border-radius: 5px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+      background-color: white;
+      margin-top: 10px;
+  }
+  .profileMenu {
+      padding: 0;
+      margin: 40px 15px 0 15px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #FFFFFF;
+  }
+  .custProfileRight textarea{
+      width: 100%;
+      padding: 5px;
+      height: 40px;
+      box-sizing: border-box;
+      font-size: 1rem;
+      border: 1px solid #A2A2A2;
+      border-radius: 5px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+      background-color: white;
+      height: 150px;
+      resize: none;
+      margin-top: 10px;
+  }
+  .custProfileRight select {
+      width: 100%;
+      padding: 5px;
+      height: 40px;
+      box-sizing: border-box;
+      font-size: 1rem;
+      border: 1px solid #A2A2A2;
+      border-radius: 5px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+      background-color: white;
+      margin-top: 10px;
+  }
+  #redError {
+      color: red !important;
+      position: absolute;
+      background-color: white;
+      height: 20px;
+      padding: 10px;
+      margin-top: -12px;
+      border-radius: 3px;
+      border: 1px solid red;
+  }
+  /*Dog cards*/
+  .dogContainer {
+      padding-top: 20px;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      border-radius: 5px;
+      padding-left: 20px;
+      font-size: 1.2rem;
+      font-weight: 700;
+      border: 1px solid #0687DB;
+      background-color: rgba(2,192,242,0.5);
+  }
+  /*edit dog form*/
+  .editDog label {
+      font-weight: normal;
+      font-size: 1rem;
+  }
+  /*----KENNEL-SHEET----*/
+  .kennelSheetColumn {
+      width: 50%;
+  }
+  /*----CALENDAR-PAGE----*/
+  #calendarContainer {
+      background-color: #FFFFFF;
+      color: #3D3F42;
+      border-radius: 5px;
+      margin:20px;
+      padding:20px;
+      position: relative;
+      z-index: 1;
+  }
+  #calendarKennels {
+      float: left;
+      outline: 1px solid #E7E7E7;
+      width: 13%;
+      margin-right: 2%;
+  }
+  #calendarDates, #calendarSplitDates {
+      overflow-x: scroll;
+      -webkit-overflow-scrolling: touch;
+      width: 85%;
+      outline: 1px solid #E7E7E7;
+      float: left;
+      position: relative;
+  }
+  #calendarKennels td {
+      min-width: 76px;
+      height: 50px;
+      padding: 5px;
+      border-bottom: 1px solid #E7E7E7;
+      text-align: center;
+  }
+  #calendarContainer button {
+      font-size: 1rem;
+      background-color: #3D3F42;
+      color: white;
+      border: 1px solid #3D3F42;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 5px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+  }
+  .bookingPopUp {
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: 29px;
+    padding:0 10px 0 10px;
+    margin-left: -20px;
+    color: #3D3F42;
+    display: none;
+  }
+  /*BOOKING PAGE*/
+  .bookingContainer {
+    background-color: #fff;
+    color: #3d3f42;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+  }
+  #bookingColumnRight {
+      width: 30%;
+  }
+  #bookingColumnLeft {
+      width: 70%;
+  }
+  .bookingColumn {
+      width: 46%;
+      float: left;
+      margin-left: 2%;
+      margin-right: 2%;
+  }
+  #bookingDates input {
+      width: 100%;
+      padding: 5px;
+      height: 40px;
+      font-size: 1rem;
+      border: 1px solid #A2A2A2;
+      border-radius: 5px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+      background-color: white;
+      margin-top: 10px;
+      box-sizing: border-box;
+  }
+  #bookingDates select {
+      width: 100%;
+      padding: 5px;
+      height: 40px;
+      box-sizing: border-box;
+      font-size: 1rem;
+      border: 1px solid #A2A2A2;
+      border-radius: 5px;
+      margin-right: 10px;
+      background-color: white;
+      margin-top: 10px;
+  }
+  #bookKennelsBox {
+      display:none;
+      position: relative;
+      clear: both;
+  }
+  #legend {
+      margin-top: 20px;
+  }
+  #bookingColumnLeft button {
+      font-size: 1rem;
+      background-color: #3D3F42;
+      border: transparent;
+      color: white;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 3px;
+      margin-right: 10px;
+      width: auto;
+  }
+  .dayCareDateBox {
+    height: 36px;
+    background-color: #81E0F9;
+    border-radius: 5px;
+    padding-top: 17px;
+    padding-left: 10px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #0687DB;
+  }
+  #homeContainer .overlay #splitBookingCalendar {
+    position: relative;
+    width: 80%;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80%;
+    overflow: scroll;
+    opacity: 1;
+    z-index: 2;
+    top: 10%;
+    background-color: #FFFFFF;
+    left:-9999px;
+  }
+  #homeContainer .overlay .loadingContainer {
+    width: 100px;
+    background-color: #fff;
+    border-radius: 5px;
+    top: 45.5%;
+    position: absolute;
+    text-align: center;
+    padding-top: 10px;
+    width: 10%;
+    height: 9%;
+    left: -9999px;
+}
+  #bookingCustomer input{
+      width: 96%;
+      padding: 2%;
+      font-size: 1rem;
+      border: 1px solid #A2A2A2;
+      border-radius: 5px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+      background-color: white;
+      margin-top: 10px;
+  }
+  #liveSearchBox input {
+    border:none;
+    float: left;
+    width: 83%;
+  }
+  #bookingClientReset {
+    float: left;
+    width: auto;
+    margin-top: 10px;
+  }
+  #liveResult {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: 58px;
+    margin-left: 0px;
+    color: #3D3F42;
+  }
+  #bookingPet button {
+      font-size: 1rem;
+      background-color: #3D3F42;
+      color: white;
+      border: 1px solid #3D3F42;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 3px;
+      margin-right: 10px;
+      width: auto;
+  }
+  #bookingPet button:hover {
+      font-size: 1rem;
+      background-color: #4e5054;
+      color: white;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 3px;
+      margin-right: 10px;
+      width: auto;
+  }
+  #bookingPet .assignSelect {
+    margin-right: 2%;
+    position: relative;
+    margin-top: -2.5px;
+  }
+  #bookingPet .bookingChoice {
+    width: auto;
+    margin: 0;
+    height: 30px;
+    background-color: white;
+    color: #3D3F42;
+  }
+  #bookingPet input {
+    width: 100%;
+    padding: 5px;
+    height: 40px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    border: 1px solid #A2A2A2;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    margin-top: 10px;
+  }
+  .chosen-container {
+    margin-top: 10px;
+  }
+  #bookingPet .chosen-container input {
+    height: auto;
+    padding: 0;
+    margin: 3px 5px 3px 0;;
+  }
+  #bookingPet select {
+    width: 100%;
+    padding: 5px;
+    height: 40px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    border: 1px solid #A2A2A2;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    margin-top: 10px;
+  }
+  #bookingPet textarea {
+    width: 100%;
+    padding: 5px;
+    height: 40px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    border: 1px solid #A2A2A2;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    height: 150px;
+    resize: none;
+    margin-top: 10px;
+  }
+  #bookingCost button{
+    font-size: 1rem;
+    background-color: #3D3F42;
+    color: white;
+    border: 1px solid #3D3F42;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    margin-right: 10px;
+    width: auto;
+  }
+  #bookingCost button:hover {
+      font-size: 1rem;
+      background-color: #4e5054;
+      color: white;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 3px;
+      margin-right: 10px;
+      width: auto;
+  }
+  #bookingCost input{
+      width: 96%;
+      padding: 2%;
+      font-size: 1rem;
+      border: 1px solid #A2A2A2;
+      border-radius: 5px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+      background-color: white;
+      margin-top: 10px;
+  }
+  #bookingCost textarea{
+      width: 96%;
+      padding: 2%;
+      font-size: 1rem;
+      border: 1px solid #A2A2A2;
+      border-radius: 5px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+      background-color: white;
+      height: 150px;
+      resize: none;
+      margin-top: 10px;
+  }
+  #bookingCost select {
+    width: 100%;
+    padding: 2%;
+    font-size: 1rem;
+    border: 1px solid #A2A2A2;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    height: 50px;
+    background-color: white;
+    margin-top: 10px;
+  }
+  .extraCharge {
+    height: 100px;
+    background-color: #81E0F9;
+    border-radius: 5px;
+    padding-top: 17px;
+    padding-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #0687DB;
+    position: relative;
+  }
+  .formInput {
+      float: left;
+      width: 17.5%;
+      margin-right: 2%;
+  }
+  .deleteExtraCharge {
+    position: absolute;
+    right: 0;
+    top: 40%;
+    width: 5%;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  .deleteExtraCharge:hover {
+    color: white;
+  }
+  .bookingContainer button {
+      background-color: white;
+      border: none;
+      color: #3D3F42;
+      width: 100%;
+      text-align: left;
+      font-size: 1rem;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 3px;
+      margin-right: 10px;
+  }
+  .bookingContainer button:hover {
+      background-color: #EEEEEE;
+      border: none;
+      color: #3D3F42;
+      width: 100%;
+      text-align: left;
+      font-size: 1rem;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 3px;
+      margin-right: 10px;
+  }
+  .bookingContainer button:active {
+      background-color: #EEEEEE;
+      border: none;
+      color: #3D3F42;
+      width: 100%;
+      text-align: left;
+      font-size: 1rem;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 3px;
+      margin-right: 10px;
+  }
+  /*Update Booking*/
+  .bookingSummaryDetails {
+    width: 50%;
+  }
+  #bookingColumnLeft #bookingShowDetailButton {
+    width: 96%;
+    padding: 2%;
+    margin: 2%;
+  }
+  #bookingColumnLeft #deleteEntireBooking {
+    width: 96%;
+    padding: 2%;
+    margin: 2%;
+  }
+}
+.beta{
+  border: 2px solid #07ADF2;
+  color: #07ADF2;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+.betaWhite{
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+/*Login Page*/
+#loginBody a:link {
+  color:#3D3F42;
+}
+#loginBody a:hover {
+  color:#4E5054;
+}
+#loginBody a:visited {
+  color:#3D3F42;
+}
+
+#loginForm h2 {
+    margin: 0;
+}
+#loginBody #loginForm label {
+    text-align: left;
+    display: block;
+}
+#loginForm input {
+    width: 94%;
+    padding: 3%;
+    font-size: 1rem;
+    border: 1px solid #3D3F42;
+    border-radius: 5px;
+    background-color: white;
+}
+/*Global*/
+html {
+    font-family: 'Lato', sans-serif;
+    color: #3D3F42;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.overflow {
+  overflow: hidden;
+}
+.clear {
+    clear:both;
+}
+.floatLeft {
+    float:left;
+}
+.floatRight {
+    float:right;
+}
+.whiteText {
+    color: #FFFFFF;
+}
+.greyText {
+    color:#F7F7F7;
+}
+.black {
+    color:#3D3F42;
+}
+.redText {
+    color: red;
+}
+.brownText {
+    color: #D8B56C;
+}
+.blueText {
+    color: #07ADF2;
+}
+.noShow {
+    display: none;
+}
+hr {
+    margin-bottom: 20px;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+button:focus {
+  outline: none;
+}
+input:focus {
+  outline: none;
+}
+/*Header and Menu*/
+header a {
+    font-size: 2rem;
+    margin-left: 2%;
+    color: #E8D2A7;
+    margin-right: 2%;
+    margin-top: 20px;
+}
+header a:hover {
+    font-size: 2rem;
+    margin-left: 2%;
+    color: #D8B56C;
+    margin-right: 2%;
+    margin-top: 20px;
+}
+/*Home Page*/
+#indexToday {
+    font-size: 1.5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    color: #3D3F42;
+}
+.loadingBox {
+  margin-bottom: 20px;
+}
+.departmentTable {
+  border-collapse:collapse;
+}
+.departmentTable tr:hover {
+  background-color: #F5F5F5;
+}
+.departmentTable .departmentHeader:hover{
+  background-color: #FFFFFF;
+}
+.departmentTable .profileButton3 {
+    background-color: #07ADF2;
+    border: none;
+    margin-right: 0;
+    color: #FFFFFF;
+}
+.departmentTable .profileButton3:hover {
+    color: white;
+    background-color: #0687DB;
+    margin-right: 0;
+}
+.arrowBorder {
+  border: 1px solid;
+  border-radius: 26px;
+  width: 20px;
+  padding: 4px;
+  margin-top: 3%;
+  margin-left: 10px;
+  color: #DDDDDD;
+}
+.arrowBorder:hover {
+  background-color: #07adf2;
+  color: #FFFFFF;
+  border-color: #DDDDDD;
+}
+.arrowBorder i {
+    padding-left: 4px;
+}
+.dataContainer a {
+  text-decoration: none;
+  color: #07ADF2;
+}
+/*Customer Page*/
+.customerListContainer label {
+    padding-top: 5px;
+}
+.pageButton {
+    background-color: #F9F9F9;
+    padding: 10px;
+    border: 1px solid #DDDDDD;
+    text-decoration: none;
+    color: #3D3F42;
+}
+.pageButton:hover {
+    background-color: #DDDDDD;
+    padding: 10px;
+    border: 1px solid #DDDDDD;
+    text-decoration: none;
+    color: #3D3F42;
+}
+/*----CUSTOMER PROFILE----*/
+.custContainer .profileButton2 {
+    background-color: white;
+    border: none;
+    color: #3D3F42;
+    width: 100%;
+    text-align: left;
+    margin-right: 0px;
+}
+.custContainer .profileButton2:hover {
+    color: white;
+    background-color: #ECDAB9;
+    margin-right: 0px;
+}
+.custContainer .profileButton3 {
+    background-color: #07ADF2;
+    border: none;
+    margin-right: 0;
+    color: #FFFFFF;
+}
+.custContainer .profileButton3:hover {
+    color: white;
+    background-color: #0687DB;
+    margin-right: 0;
+}
+.custContainer .profileButton4 {
+    background-color: #d72d14;
+    border: none;
+    margin-right: 0;
+    color: #FFFFFF;
+}
+.custContainer .profileButton4:hover {
+    color: white;
+    background-color:#c12713;
+    margin-right: 0;
+}
+.custProfileRight .error {
+    border: 1px solid #D72D14;
+}
+.custContainer hr {
+    margin-top: 0px;
+}
+.profileMenu:hover {
+   border-bottom: 3px solid #07ADF2;
+   opacity: 0.5;
+}
+.profileMenuSelected {
+    border-bottom: 3px solid #07ADF2;
+}
+#profilePetSection, #profileBookSection {
+    display: none;
+}
+#customerForm #redError {
+    margin-top: -31px;
+    margin-left: 195px;
+}
+/*Dog cards*/
+.dogContainer .bookingChoiceLabel{
+  float: right;
+  font-size: 1rem;
+  margin-right: 2%;
+  margin-top: 2.5px;
+}
+.editDogButton {
+    margin-top: -8px;
+}
+/*new dog form*/
+#addDog {
+    background-color:rgba(2,192,242,0.5);
+    border: 1px solid #0687DB;
+    padding: 2%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: none;
+}
+/*edit dog form*/
+.editDog {
+    width: 96%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: none;
+    font-size: 1rem;
+}
+/*----CUSTOMER-PROFILE-ENDS----*/
+/*----KENNEL-SHEET----*/
+.kennelSheetContainer {
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    margin: 10px;
+}
+.kennelSheetHeader {
+    padding: 15px;
+    background-color: #F9F9F9;
+    border-bottom: 1px solid #E0E0E0;
+}
+.kennelSheetContents {
+    padding: 15px;
+}
+#kennelSheetContainerBlue {
+    border: 1px solid #0687DB;
+    border-radius: 5px;
+    margin: 10px;
+}
+#kennelSheetHeaderBlue {
+    padding: 15px;
+    background-color:rgba(2,192,242,0.5);
+    border-bottom: 1px solid #0687DB;
+}
+#kennelSheetContainerRed {
+    border: 1px solid #c12713;
+    border-radius: 5px;
+    margin: 10px;
+}
+#kennelSheetHeaderRed {
+    padding: 15px;
+    background-color:rgba(215,45,20,0.5);
+    border-bottom: 1px solid #c12713;
+}
+.kennelSheetCardPrint {
+    display: none;
+}
+/*Kennel Sheet Card Printable*/
+@media print {
+ /* All your print styles go here */
+ header, footer, nav, #homeContainer, #indexToday, .mobileNavIcon {
+        display: none !important;
+    }
+    .kennelSheetCardPrint {
+        border: 1px solid #E0E0E0;
+        border-radius: 5px;
+        padding: 20px;
+        display: block;
+    }
+    .kennelCardColumn {
+        width: 50%;
+    }
+    .kennelCardBoxes {
+        border: 1px solid #E0E0E0;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px;
+    }
+    .kennelCardHeader {
+        font-weight: 700;
+    }
+    #bookingBlocks .ui-widget-content {
+      background: #3CBEF5;
+      border: none;
+      color: #FFFFFF;
+      width: 76px;
+      border-radius: 5px;
+      padding: 5px;
+      position: absolute;
+    }
+}
+/*----KENNEL-SHEET-ENDS----*/
+/*----CALENDAR-PAGE----*/
+#calendarContainer .bookButton {
+    display: none;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.calendarPrint {
+   text-decoration: none;
+   color: #3D3F42;
+}
+.calendarPrint:hover {
+   opacity: 0.5;
+   text-decoration: none;
+   color: #3D3F42;
+}
+#calendarContainer label {
+    margin-top: 10px;
+}
+#calendarKennels table {
+   border-collapse: collapse;
+}
+#calendarKennels table tr:nth-child(even) {
+    background: #F9F9F9;
+}
+#calendar {
+    width: 100%;
+    border-collapse: collapse;
+    position: relative;
+}
+#calendar #scrollToday {
+background-color: #3CBEF5;
+color: white;
+}
+#calendar .today {
+background-color: rgba(60,190,245,0.5);
+color: white;
+}
+#calendar .date {
+    font-weight: 700;
+}
+#calendar td {
+    min-width: 76px;
+    border-right: 1px solid #E7E7E7;
+    border-bottom: 1px solid #E7E7E7;
+    border-left: none;
+    text-align: center;
+    padding: 5px;
+    height: 50px;
+    background: transparent;
+}
+#calendar tr:nth-child(even) {
+    background: #F9F9F9;
+}
+/*Print Calendar View*/
+#calendarPrint {
+  width: 210mm;
+  min-height: 297mm;
+  margin: 10mm auto;
+  background: white;
+}
+#calendarPrint #calendarKennels table {
+    width: 100%;
+}
+#calendarPrint #calendarKennels {
+    outline: none;
+    margin-right: 1%;
+}
+#calendarPrint #calendarDates {
+    overflow-x: visible;
+    outline: none;
+    width:86%;
+}
+#calendarPrint #calendarKennels td{
+    border: 1px solid #D1D1D1;
+}
+#calendarPrint #calendarDates td{
+    border: 1px solid #D1D1D1;
+}
+#bookingBlocks .ui-widget-content {
+    background: #3CBEF5;
+    border: none;
+    color: #FFFFFF;
+    width: 76px;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#bookingBlocks .ui-widget-content .dogNamesCalendar {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-left: 5%;
+}
+#bookingBlocks .ui-widget-content .dogNamesCalendar {
+    width: 60%;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-left: 5%;
+}
+#calendarDates .ui-widget-header {
+    border-top: none;
+    border-left: none;
+    background: inherit;
+    color: #3CBEF5;
+    font-weight: normal;
+}
+#calendarDates .ui-droppable-hover {
+    border: 3px dashed #3CBEF5;
+}
+#bookDragHighLight {
+  border: 3px dashed #E7E7E7;
+  height: 56px;
+  width: 82px;
+  display: none;
+  position: absolute;
+}
+.bookingName {
+    font-size: 0.8rem;
+    padding: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    z-index: 5;
+    position: relative;
+}
+.info {
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.bookingInfoButton {
+    position: relative;
+    float: left;
+    padding-left: 2%;
+}
+.bookingPopUp hr {
+  margin-bottom: 0;
+}
+#calendarContainer .bookingPopUp button{
+  margin-bottom: 0;
+  background-color: #07ADF2;
+  border: none;
+}
+#calendarContainer .bookingPopUp button:hover{
+  margin-bottom: 0;
+  background-color: #0687DB;
+  border: none;
+}
+.popTri {
+  position: absolute;
+  top: 0;
+  left: 7px;
+  margin-top: -11px;
+  color: white;
+}
+.content {
+    float: left;
+ }
+/*----CALENDAR-PAGE-ENDS----*/
+/*----BOOKING-PAGE----*/
+#homeContainer .overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(61, 63, 66, 0.5);
+  top: 0;
+  left:0;
+  /*display: none;*/
+}
+#homeContainer .overlayHide {
+  left: -9999px;
+}
+#calendarContainer #splitBookingSave {
+  background-color: #07ADF2;
+  border: 1px solid #07ADF2;
+}
+#calendarContainer #splitBookingSave:hover {
+  background-color: #0687DB;
+  border: 1px solid #0687DB;
+}
+#splitBookingClose:hover {
+  background-color: #4E5054;
+}
+#bookingColumnLeft .accordianArrow {
+  margin: 13px 0 0 0;
+  background-color: transparent;
+  color: #3D3F42;
+  width: auto;
+  padding: 0;
+  transition: 0.4s;
+  cursor: pointer;
+  border: none;
+}
+#bookingColumnLeft .accordianArrow:hover {
+  opacity: 0.5;
+  margin: 13px 0 0 0;
+  background-color: transparent;
+  color: #3D3F42;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+}
+#bookingColumnLeft .panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out, opacity 0.25s ease-in-out;
+  -webkit-transition: max-height 0.5s ease-out, opacity 0.25s ease-in-out;
+  opacity: 0;
+}
+#bookingColumnLeft .show{
+  opacity: 1;
+  max-height: 5000px;
+  overflow: visible;
+}
+.checkmark {
+  color: #07ed81;
+}
+#dayCareSelected, #overNightSelected, #meetGreetSelected {
+  margin-top: 10px;
+}
+#overNightSelected, #meetGreetSelected {
+  display: none;
+}
+#bookingSummary div {
+  margin-top: 5px;
+    margin-bottom: 5px;
+}
+#subTotal {
+  display: none;
+}
+#dayCareDateError {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+#bookingColumnLeft .nextButton {
+  width: 70px;
+  text-align: center;
+}
+#bookingColumnLeft .nextButton:hover {
+  background-color: #4E5054;
+  width: 70px;
+}
+.editOn {
+  background-color: #EB968A;
+  border-color:#C12713;
+}
+.redHighlight {
+  border-color:#C12713;
+}
+.dayCareDateBoxTools {
+    float: right;
+    margin-right: 10px;
+}
+.dayCareDateBoxTools a{
+  color: #3D3F42;
+  text-decoration: none;
+}
+.dayCareDateBoxTools a:hover{
+  text-decoration: underline;
+}
+#bookingColumnLeft .squareButton {
+  width: 100px;
+  text-align: center;
+  margin-left: 15px;
+  margin-bottom: 10px;
+
+}
+#bookingColumnLeft .profileButton3 {
+    background-color: #07ADF2;
+    border: none;
+    margin-right: 0;
+    color: #FFFFFF;
+}
+#bookingColumnLeft .profileButton3:hover {
+  color: white;
+  background-color: #0687DB;
+  margin-right: 0;
+}
+#bookingColumnLeft .deleteRed {
+    background-color: #D72D14;
+    border: none;
+    margin-right: 0;
+    color: #FFFFFF;
+}
+#bookingColumnLeft .deleteRed:hover {
+  color: white;
+  background-color: #C12713;
+  margin-right: 0;
+}
+#bookingSummary {
+  position: relative;
+}
+#invoiceList hr {
+  margin-bottom: 0;
+}
+.bookingContainer .selected {
+    background-color: #07ADF2;
+    color: white;
+}
+.bookingContainer .button2 {
+    background-color: #3D3F42;
+    color: white;
+    text-align: center;
+}
+.bookingContainer .button2:hover {
+    background-color: #4E5054;
+    color: white;
+    text-align: center;
+}
+#bookingShowDetailContainer {
+ display:none;
+}
+#bookingDetailContainer .profileButton3{
+  margin-right: 5px;
+}
+#bookingDetailContainer .profileButton3:hover{
+  margin-right: 5px;
+}
+.textRight {
+  text-align: right;
+}
+#bookingCustomer textarea{
+    width: 96%;
+    padding: 2%;
+    font-size: 1rem;
+    border: 1px solid #A2A2A2;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    height: 150px;
+    resize: none;
+    margin-top: 10px;
+}
+#bookingKennelSummaryButton {
+  display: none;
+}
+.legendItem {
+    margin-right: 10px;
+    display: inline;
+}
+#bookingKennels {
+    width:100%;
+    text-align:center;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#bookingKennels button {
+    width: auto;
+}
+#bookKennelsBox .overlay {
+  position: absolute;
+  width: 100%;
+  height: 450px;
+  background-color: #3D3F42;
+  opacity: 0.5;
+  top: 39px;
+  display: none;
+}
+#bookKennelsBox .overlay .fa-spinner {
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+#splitBookingBox {
+  display: none;
+}
+.bookKennelLeftColumn {
+    width: 25%;
+}
+.progressbar {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 30px;
+}
+.progressbar .available {
+background: #E8D2A7;
+}
+.progressbar .myBooking {
+  background: #07ADF2;
+}
+#bookingKennels .myBooking {
+  background: #07ADF2;
+}
+.progressbar .doubleBooking {
+  width: 50%;
+  background: rgb(255, 0, 0);
+}
+#bookingKennels td {
+    border: 1px solid #DDDDDD;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#bookingKennels tr:nth-child(even) {
+    background: #F9F9F9;
+}
+#calendarSplitDates .splitDateSelected {
+  background-color: #0687DB;
+}
+
+#calendarSplitDates .calendarClick:hover {
+  background-color: #07ADF2;
+}
+#liveSearchBox {
+  background-color: #81E0F9;
+  border-radius: 5px;
+  padding-top: 17px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #0687DB;
+}
+#clientLiveSearch {
+  position: relative;
+}
+.liveResultLink{
+  display: block;
+  padding: 12px 16px;
+}
+.liveResultLink:hover{
+  background-color: #f1f1f1;
+}
+#bookingCustomer #redError {
+  margin-left: 15%;
+}
+
+/*new dog form*/
+#bookingPet #addDog {
+    display: block;
+}
+#bookingPet .datesChoicePopUp {
+  display: none;
+  position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: 13px;
+    margin-left: -20px;
+    color: #3D3F42;
+    padding: 5px;
+    z-index: 10;
+}
+#bookingPet .datesChoicePopUp i {
+  position: absolute;
+  margin-top: -41px;
+  margin-left: 127px;
+  color: #f9f9f9;
+}
+#bookingPet input[type="checkbox"] {
+    width: auto;
+    margin: 5px;
+    height: auto;
+    box-sizing: border-box;
+}
+#bookingCost .extraCharge .error {
+    border: 1px solid #D72D14;
+}
+#bookingCost .formInput input {
+  padding: 15px 5px 15px 5px;
+}
+/*----BOOKING-PAGE-ENDS----*/
+/*----SETTING-PAGE----*/
+.settingsContainer {
+    background-color: #FFFFFF;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 1.5%;
+    padding-bottom:1.5%;
+}
+.settingsColumn {
+    width: 25%;
+    float: left;
+}
+.settingsColumn h1 {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.settingsBox {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.settingsBox:hover {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #07ADF2;
+}
+.settingsColumn hr {
+    border-bottom: 1px solid #3D3F42;
+}
+/*----SETTING-PAGE-ENDS----*/
+/*----SETTING-PERSONAL-PAGE----*/
+#settingsPersonalContainer {
+    background-color: #D8B56C;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 1.5%;
+    padding-bottom:1.5%;
+}
+#settingsPersonalContainer button {
+    text-align: left;
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.settingsPersonalColumnLeft {
+    width: 30%;
+    float: left;
+}
+.settingsPersonalColumnRight {
+    width: 70%;
+    float: left;
+}
+.settingsPersonalBox {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.settingsPersonalColumnLeft button {
+    background-color: white;
+    border: none;
+    color: #3D3F42;
+    width: 100%;
+    text-align: left;
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.settingsPersonalColumnLeft button:hover {
+    background-color: #EEEEEE;
+    border: none;
+    color: #3D3F42;
+    width: 100%;
+    text-align: left;
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.settingsPersonalColumnLeft .selected {
+    background-color: #07ADF2;
+    color: white;
+}
+.settingsPersonalColumnRight input {
+    width: 96%;
+    padding: 2%;
+    font-size: 1rem;
+    border: 1px solid #A2A2A2;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    margin-top: 10px;
+}
+.settingsPersonalColumnRight select {
+    width: 100%;
+    padding: 2%;
+    font-size: 1rem;
+    border: 1px solid #A2A2A2;
+    border-radius: 5px;
+    margin-right: 10px;
+    height: 50px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.settingsPersonalColumnRight .blueButton {
+    background-color: #07ADF2;
+    border: none;
+    margin-right: 0;
+    color: #FFFFFF;
+}
+.settingsPersonalColumnRight .blueButton:hover {
+    color: white;
+    background-color: #0687DB;
+    margin-right: 0;
+}
+.settingsPersonalColumnRight .greyButton {
+    background-color: #3D3F42;
+    border: none;
+    margin-right: 0;
+    color: #FFFFFF;
+}
+.settingsPersonalColumnRight .greyButton:hover {
+    color: white;
+    background-color: #3D3F42;
+    margin-right: 0;
+}
+#kennelEditBox {
+    display: none;
+    margin-top: 20px;
+}
+
+/*----SETTING-PERSONAL-PAGE-ENDS----*/

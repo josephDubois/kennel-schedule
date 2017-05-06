@@ -1,0 +1,272 @@
+[27-Apr-2017 13:15:30 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:15:30 America/Denver] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (2017 04 27) at position 5 (0): Unexpected character' in /home6/friengh1/public_html/ddst/projects/FFPR3/functions.php:31
+Stack trace:
+#0 /home6/friengh1/public_html/ddst/projects/FFPR3/functions.php(31): DateTime->__construct('2017 04 27')
+#1 /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php(32): notPast(NULL)
+#2 /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/index.php(66): include('/home6/friengh1...')
+#3 {main}
+  thrown in /home6/friengh1/public_html/ddst/projects/FFPR3/functions.php on line 31
+[27-Apr-2017 13:16:36 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:17:56 America/Denver] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (2017 04 27) at position 5 (0): Unexpected character' in /home6/friengh1/public_html/ddst/projects/FFPR3/functions.php:31
+Stack trace:
+#0 /home6/friengh1/public_html/ddst/projects/FFPR3/functions.php(31): DateTime->__construct('2017 04 27')
+#1 /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php(32): notPast('2017-04-27')
+#2 /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/index.php(66): include('/home6/friengh1...')
+#3 {main}
+  thrown in /home6/friengh1/public_html/ddst/projects/FFPR3/functions.php on line 31
+[27-Apr-2017 13:21:38 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:21:41 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:21:44 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:21:48 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:23:32 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:25:10 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:25:47 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:26:36 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:27:07 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:27:56 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:29:28 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:32:04 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:40:32 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:41:00 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:41:26 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:49:37 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:51:16 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:51:18 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:52:09 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:52:12 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:52:47 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:52:49 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:53:32 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:54:20 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:54:45 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:54:46 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:55:06 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:58:13 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:58:16 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:58:59 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:59:03 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:59:24 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:59:26 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:59:29 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 13:59:43 America/Denver] PHP Notice:  Undefined index: dogs in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/payment.php on line 41
+[27-Apr-2017 14:01:02 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 14:02:48 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 14:03:19 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 69
+[27-Apr-2017 14:03:28 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 14:03:32 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 14:03:46 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 14:06:13 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 14:06:33 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 14:06:51 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 14:06:56 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 14:07:23 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 14:07:29 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 14:09:50 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 14:12:26 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 14:12:49 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 32
+[27-Apr-2017 14:15:22 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 36
+[27-Apr-2017 14:15:29 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 36
+[27-Apr-2017 14:15:48 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 36
+[27-Apr-2017 14:18:02 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 36
+[27-Apr-2017 14:19:54 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 36
+[27-Apr-2017 14:20:33 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 36
+[27-Apr-2017 14:21:23 America/Denver] PHP Notice:  Undefined index: general in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 33
+[27-Apr-2017 14:21:23 America/Denver] PHP Notice:  Undefined index: age in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 126
+[27-Apr-2017 14:21:23 America/Denver] PHP Notice:  Undefined index: food in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 182
+[27-Apr-2017 14:21:23 America/Denver] PHP Notice:  Undefined index: vet in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 247
+[27-Apr-2017 14:21:23 America/Denver] PHP Notice:  Undefined index: Error in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 327
+[27-Apr-2017 14:26:28 America/Denver] PHP Notice:  Undefined index: general in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 35
+[27-Apr-2017 14:26:28 America/Denver] PHP Notice:  Undefined index: age in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 128
+[27-Apr-2017 14:26:28 America/Denver] PHP Notice:  Undefined index: food in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 184
+[27-Apr-2017 14:26:28 America/Denver] PHP Notice:  Undefined index: vet in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 249
+[27-Apr-2017 14:26:28 America/Denver] PHP Notice:  Undefined index: Error in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 329
+[27-Apr-2017 14:27:37 America/Denver] PHP Notice:  Undefined index: general in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 35
+[27-Apr-2017 14:27:37 America/Denver] PHP Notice:  Undefined index: age in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 128
+[27-Apr-2017 14:27:37 America/Denver] PHP Notice:  Undefined index: food in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 184
+[27-Apr-2017 14:27:37 America/Denver] PHP Notice:  Undefined index: vet in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 249
+[27-Apr-2017 14:27:37 America/Denver] PHP Notice:  Undefined index: Error in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 329
+[27-Apr-2017 14:28:33 America/Denver] PHP Notice:  Undefined index: general in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 35
+[27-Apr-2017 14:28:33 America/Denver] PHP Notice:  Undefined index: age in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 128
+[27-Apr-2017 14:28:33 America/Denver] PHP Notice:  Undefined index: food in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 184
+[27-Apr-2017 14:28:33 America/Denver] PHP Notice:  Undefined index: vet in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 249
+[27-Apr-2017 14:28:33 America/Denver] PHP Notice:  Undefined index: Error in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 329
+[27-Apr-2017 14:29:35 America/Denver] PHP Notice:  Undefined index: general in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 42
+[27-Apr-2017 14:29:35 America/Denver] PHP Notice:  Undefined index: age in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 135
+[27-Apr-2017 14:29:35 America/Denver] PHP Notice:  Undefined index: food in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 191
+[27-Apr-2017 14:29:35 America/Denver] PHP Notice:  Undefined index: vet in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 256
+[27-Apr-2017 14:29:35 America/Denver] PHP Notice:  Undefined index: Error in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 336
+[27-Apr-2017 14:50:49 America/Denver] PHP Notice:  Undefined index: general in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 48
+[27-Apr-2017 14:50:49 America/Denver] PHP Notice:  Undefined index: age in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 141
+[27-Apr-2017 14:50:49 America/Denver] PHP Notice:  Undefined index: food in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 196
+[27-Apr-2017 14:50:49 America/Denver] PHP Notice:  Undefined index: vet in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 261
+[27-Apr-2017 14:50:49 America/Denver] PHP Notice:  Undefined index: Error in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 341
+[27-Apr-2017 14:50:57 America/Denver] PHP Notice:  Undefined variable: addData in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:50:57 America/Denver] PHP Notice:  Undefined index: Breed in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:50:57 America/Denver] PHP Notice:  Undefined index: Color in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:50:57 America/Denver] PHP Notice:  Undefined index: Gender in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:50:57 America/Denver] PHP Notice:  Undefined index: Fixed in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:50:57 America/Denver] PHP Notice:  Undefined index: Weight in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:50:57 America/Denver] PHP Notice:  Undefined index: Notes in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:50:57 America/Denver] PHP Notice:  Undefined index: age in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 141
+[27-Apr-2017 14:50:57 America/Denver] PHP Notice:  Undefined index: food in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 196
+[27-Apr-2017 14:50:57 America/Denver] PHP Notice:  Undefined index: vet in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 261
+[27-Apr-2017 14:50:57 America/Denver] PHP Notice:  Undefined index: Error in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 341
+[27-Apr-2017 14:51:07 America/Denver] PHP Notice:  Undefined variable: addData in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:51:07 America/Denver] PHP Notice:  Undefined index: Breed in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:51:07 America/Denver] PHP Notice:  Undefined index: Color in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:51:07 America/Denver] PHP Notice:  Undefined index: Gender in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:51:07 America/Denver] PHP Notice:  Undefined index: Fixed in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:51:07 America/Denver] PHP Notice:  Undefined index: Weight in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:51:07 America/Denver] PHP Notice:  Undefined index: Notes in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:51:07 America/Denver] PHP Notice:  Undefined index: fixed in /home6/friengh1/public_html/ddst/projects/FFPR3/functions.php on line 67
+[27-Apr-2017 14:51:07 America/Denver] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home6/friengh1/public_html/ddst/projects/FFPR3/functions.php on line 69
+[27-Apr-2017 14:51:07 America/Denver] PHP Notice:  Undefined index: age in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 141
+[27-Apr-2017 14:51:07 America/Denver] PHP Notice:  Undefined index: food in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 196
+[27-Apr-2017 14:51:07 America/Denver] PHP Notice:  Undefined index: vet in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 261
+[27-Apr-2017 14:51:07 America/Denver] PHP Notice:  Undefined index: Error in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 341
+[27-Apr-2017 14:51:13 America/Denver] PHP Notice:  Undefined variable: addData in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:51:13 America/Denver] PHP Notice:  Undefined index: Breed in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:51:13 America/Denver] PHP Notice:  Undefined index: Color in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:51:13 America/Denver] PHP Notice:  Undefined index: Gender in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:51:13 America/Denver] PHP Notice:  Undefined index: Fixed in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:51:13 America/Denver] PHP Notice:  Undefined index: Weight in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:51:13 America/Denver] PHP Notice:  Undefined index: Notes in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:51:13 America/Denver] PHP Notice:  Undefined index: fixed in /home6/friengh1/public_html/ddst/projects/FFPR3/functions.php on line 67
+[27-Apr-2017 14:51:13 America/Denver] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home6/friengh1/public_html/ddst/projects/FFPR3/functions.php on line 69
+[27-Apr-2017 14:51:13 America/Denver] PHP Notice:  Undefined index: age in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 141
+[27-Apr-2017 14:51:13 America/Denver] PHP Notice:  Undefined index: food in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 196
+[27-Apr-2017 14:51:13 America/Denver] PHP Notice:  Undefined index: vet in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 261
+[27-Apr-2017 14:51:13 America/Denver] PHP Notice:  Undefined index: Error in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 341
+[27-Apr-2017 14:52:09 America/Denver] PHP Notice:  Undefined variable: addData in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:52:09 America/Denver] PHP Notice:  Undefined index: Breed in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:52:09 America/Denver] PHP Notice:  Undefined index: Color in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:52:09 America/Denver] PHP Notice:  Undefined index: Gender in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:52:09 America/Denver] PHP Notice:  Undefined index: Fixed in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:52:09 America/Denver] PHP Notice:  Undefined index: Weight in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:52:09 America/Denver] PHP Notice:  Undefined index: Notes in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:52:09 America/Denver] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home6/friengh1/public_html/ddst/projects/FFPR3/functions.php on line 69
+[27-Apr-2017 14:52:09 America/Denver] PHP Notice:  Undefined index: age in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 141
+[27-Apr-2017 14:52:09 America/Denver] PHP Notice:  Undefined index: food in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 196
+[27-Apr-2017 14:52:09 America/Denver] PHP Notice:  Undefined index: vet in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 261
+[27-Apr-2017 14:52:09 America/Denver] PHP Notice:  Undefined index: Error in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 341
+[27-Apr-2017 14:52:13 America/Denver] PHP Notice:  Undefined variable: addData in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:52:13 America/Denver] PHP Notice:  Undefined index: Breed in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:52:13 America/Denver] PHP Notice:  Undefined index: Color in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:52:13 America/Denver] PHP Notice:  Undefined index: Gender in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:52:13 America/Denver] PHP Notice:  Undefined index: Fixed in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:52:13 America/Denver] PHP Notice:  Undefined index: Weight in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:52:13 America/Denver] PHP Notice:  Undefined index: Notes in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:52:13 America/Denver] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home6/friengh1/public_html/ddst/projects/FFPR3/functions.php on line 69
+[27-Apr-2017 14:52:13 America/Denver] PHP Notice:  Undefined index: age in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 141
+[27-Apr-2017 14:52:13 America/Denver] PHP Notice:  Undefined index: food in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 196
+[27-Apr-2017 14:52:13 America/Denver] PHP Notice:  Undefined index: vet in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 261
+[27-Apr-2017 14:52:13 America/Denver] PHP Notice:  Undefined index: Error in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 341
+[27-Apr-2017 14:52:19 America/Denver] PHP Notice:  Undefined index: general in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 48
+[27-Apr-2017 14:52:19 America/Denver] PHP Notice:  Undefined index: age in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 141
+[27-Apr-2017 14:52:19 America/Denver] PHP Notice:  Undefined index: food in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 196
+[27-Apr-2017 14:52:19 America/Denver] PHP Notice:  Undefined index: vet in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 261
+[27-Apr-2017 14:52:19 America/Denver] PHP Notice:  Undefined index: Error in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 341
+[27-Apr-2017 14:52:23 America/Denver] PHP Notice:  Undefined variable: addData in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:52:23 America/Denver] PHP Notice:  Undefined index: Breed in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:52:23 America/Denver] PHP Notice:  Undefined index: Color in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:52:23 America/Denver] PHP Notice:  Undefined index: Gender in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:52:23 America/Denver] PHP Notice:  Undefined index: Fixed in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:52:23 America/Denver] PHP Notice:  Undefined index: Weight in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:52:23 America/Denver] PHP Notice:  Undefined index: Notes in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:52:23 America/Denver] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home6/friengh1/public_html/ddst/projects/FFPR3/functions.php on line 69
+[27-Apr-2017 14:52:23 America/Denver] PHP Notice:  Undefined index: age in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 141
+[27-Apr-2017 14:52:23 America/Denver] PHP Notice:  Undefined index: food in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 196
+[27-Apr-2017 14:52:23 America/Denver] PHP Notice:  Undefined index: vet in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 261
+[27-Apr-2017 14:52:23 America/Denver] PHP Notice:  Undefined index: Error in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 341
+[27-Apr-2017 14:53:18 America/Denver] PHP Notice:  Undefined variable: addData in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:53:18 America/Denver] PHP Notice:  Undefined index: Breed in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:53:18 America/Denver] PHP Notice:  Undefined index: Color in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:53:18 America/Denver] PHP Notice:  Undefined index: Gender in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:53:18 America/Denver] PHP Notice:  Undefined index: Fixed in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:53:18 America/Denver] PHP Notice:  Undefined index: Weight in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:53:18 America/Denver] PHP Notice:  Undefined index: Notes in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:53:18 America/Denver] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home6/friengh1/public_html/ddst/projects/FFPR3/functions.php on line 69
+[27-Apr-2017 14:53:18 America/Denver] PHP Notice:  Undefined index: age in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 141
+[27-Apr-2017 14:53:18 America/Denver] PHP Notice:  Undefined index: food in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 196
+[27-Apr-2017 14:53:18 America/Denver] PHP Notice:  Undefined index: vet in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 261
+[27-Apr-2017 14:53:18 America/Denver] PHP Notice:  Undefined index: Error in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 341
+[27-Apr-2017 14:53:26 America/Denver] PHP Notice:  Undefined variable: addData in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:53:26 America/Denver] PHP Notice:  Undefined index: Breed in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:53:26 America/Denver] PHP Notice:  Undefined index: Color in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:53:26 America/Denver] PHP Notice:  Undefined index: Gender in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:53:26 America/Denver] PHP Notice:  Undefined index: Fixed in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:53:26 America/Denver] PHP Notice:  Undefined index: Weight in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:53:26 America/Denver] PHP Notice:  Undefined index: Notes in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:53:26 America/Denver] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home6/friengh1/public_html/ddst/projects/FFPR3/functions.php on line 69
+[27-Apr-2017 14:53:26 America/Denver] PHP Notice:  Undefined index: age in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 141
+[27-Apr-2017 14:53:26 America/Denver] PHP Notice:  Undefined index: food in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 196
+[27-Apr-2017 14:53:26 America/Denver] PHP Notice:  Undefined index: vet in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 261
+[27-Apr-2017 14:53:26 America/Denver] PHP Notice:  Undefined index: Error in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 341
+[27-Apr-2017 14:53:32 America/Denver] PHP Notice:  Undefined variable: addData in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:53:32 America/Denver] PHP Notice:  Undefined index: Breed in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:53:32 America/Denver] PHP Notice:  Undefined index: Color in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:53:32 America/Denver] PHP Notice:  Undefined index: Gender in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:53:32 America/Denver] PHP Notice:  Undefined index: Fixed in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:53:32 America/Denver] PHP Notice:  Undefined index: Weight in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:53:32 America/Denver] PHP Notice:  Undefined index: Notes in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:53:32 America/Denver] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home6/friengh1/public_html/ddst/projects/FFPR3/functions.php on line 69
+[27-Apr-2017 14:53:32 America/Denver] PHP Notice:  Undefined index: age in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 141
+[27-Apr-2017 14:53:32 America/Denver] PHP Notice:  Undefined index: food in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 196
+[27-Apr-2017 14:53:32 America/Denver] PHP Notice:  Undefined index: vet in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 261
+[27-Apr-2017 14:53:32 America/Denver] PHP Notice:  Undefined index: Error in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 341
+[27-Apr-2017 14:59:57 America/Denver] PHP Notice:  Undefined variable: addData in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:59:57 America/Denver] PHP Notice:  Undefined index: Breed in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:59:57 America/Denver] PHP Notice:  Undefined index: Color in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:59:57 America/Denver] PHP Notice:  Undefined index: Gender in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:59:57 America/Denver] PHP Notice:  Undefined index: Fixed in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:59:57 America/Denver] PHP Notice:  Undefined index: Weight in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:59:57 America/Denver] PHP Notice:  Undefined index: Notes in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 14:59:57 America/Denver] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home6/friengh1/public_html/ddst/projects/FFPR3/functions.php on line 69
+[27-Apr-2017 14:59:57 America/Denver] PHP Notice:  Undefined index: age in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 141
+[27-Apr-2017 14:59:57 America/Denver] PHP Notice:  Undefined index: food in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 196
+[27-Apr-2017 14:59:57 America/Denver] PHP Notice:  Undefined index: vet in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 261
+[27-Apr-2017 14:59:57 America/Denver] PHP Notice:  Undefined index: Error in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 341
+[27-Apr-2017 15:00:34 America/Denver] PHP Notice:  Undefined variable: addData in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 15:00:34 America/Denver] PHP Notice:  Undefined index: Breed in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 15:00:34 America/Denver] PHP Notice:  Undefined index: Color in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 15:00:34 America/Denver] PHP Notice:  Undefined index: Gender in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 15:00:34 America/Denver] PHP Notice:  Undefined index: Fixed in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 15:00:34 America/Denver] PHP Notice:  Undefined index: Weight in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 15:00:34 America/Denver] PHP Notice:  Undefined index: Notes in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 15:00:34 America/Denver] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home6/friengh1/public_html/ddst/projects/FFPR3/functions.php on line 69
+[27-Apr-2017 15:00:34 America/Denver] PHP Notice:  Undefined index: age in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 141
+[27-Apr-2017 15:00:34 America/Denver] PHP Notice:  Undefined index: food in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 196
+[27-Apr-2017 15:00:34 America/Denver] PHP Notice:  Undefined index: vet in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 261
+[27-Apr-2017 15:00:34 America/Denver] PHP Notice:  Undefined index: Error in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 341
+[27-Apr-2017 15:01:22 America/Denver] PHP Notice:  Undefined variable: addData in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 15:01:22 America/Denver] PHP Notice:  Undefined index: Breed in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 15:01:22 America/Denver] PHP Notice:  Undefined index: Color in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 15:01:22 America/Denver] PHP Notice:  Undefined index: Gender in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 15:01:22 America/Denver] PHP Notice:  Undefined index: Fixed in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 15:01:22 America/Denver] PHP Notice:  Undefined index: Weight in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 15:01:22 America/Denver] PHP Notice:  Undefined index: Notes in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 54
+[27-Apr-2017 15:01:22 America/Denver] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home6/friengh1/public_html/ddst/projects/FFPR3/functions.php on line 69
+[27-Apr-2017 15:01:22 America/Denver] PHP Notice:  Undefined index: age in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 141
+[27-Apr-2017 15:01:22 America/Denver] PHP Notice:  Undefined index: food in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 196
+[27-Apr-2017 15:01:22 America/Denver] PHP Notice:  Undefined index: vet in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 261
+[27-Apr-2017 15:01:22 America/Denver] PHP Notice:  Undefined index: Error in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 341
+[27-Apr-2017 15:01:36 America/Denver] PHP Notice:  Undefined index: general in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 47
+[27-Apr-2017 15:01:36 America/Denver] PHP Notice:  Undefined index: age in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 140
+[27-Apr-2017 15:01:36 America/Denver] PHP Notice:  Undefined index: food in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 195
+[27-Apr-2017 15:01:36 America/Denver] PHP Notice:  Undefined index: vet in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 260
+[27-Apr-2017 15:01:36 America/Denver] PHP Notice:  Undefined index: Error in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 340
+[27-Apr-2017 15:01:52 America/Denver] PHP Notice:  Undefined variable: addData in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 53
+[27-Apr-2017 15:01:52 America/Denver] PHP Notice:  Undefined index: Breed in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 53
+[27-Apr-2017 15:01:52 America/Denver] PHP Notice:  Undefined index: Color in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 53
+[27-Apr-2017 15:01:52 America/Denver] PHP Notice:  Undefined index: Gender in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 53
+[27-Apr-2017 15:01:52 America/Denver] PHP Notice:  Undefined index: Fixed in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 53
+[27-Apr-2017 15:01:52 America/Denver] PHP Notice:  Undefined index: Weight in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 53
+[27-Apr-2017 15:01:52 America/Denver] PHP Notice:  Undefined index: Notes in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 53
+[27-Apr-2017 15:01:52 America/Denver] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home6/friengh1/public_html/ddst/projects/FFPR3/functions.php on line 69
+[27-Apr-2017 15:01:52 America/Denver] PHP Notice:  Undefined index: age in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 140
+[27-Apr-2017 15:01:52 America/Denver] PHP Notice:  Undefined index: food in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 195
+[27-Apr-2017 15:01:52 America/Denver] PHP Notice:  Undefined index: vet in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 260
+[27-Apr-2017 15:01:52 America/Denver] PHP Notice:  Undefined index: Error in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/dog.php on line 340
+[30-Apr-2017 09:31:54 America/Denver] PHP Notice:  Undefined index: page in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/index.php on line 57
+[30-Apr-2017 09:31:56 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 36
+[30-Apr-2017 09:35:51 America/Denver] PHP Notice:  Undefined index: daycare in /home6/friengh1/public_html/ddst/projects/FFPR3/profile/pages/book.php on line 36
